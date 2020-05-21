@@ -17,6 +17,7 @@ echo "Build arguments: $OPT"
 
 export GOOS=linux
 export CGO_ENABLED=0
+export GOFLAGS=-mod=vendor
 
 # TODO: -ldflags
 
